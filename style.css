@@ -1,0 +1,80 @@
+body{margin:0
+}
+.first{ 
+    background-color:#3498db;
+    height:50px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color:aliceblue;
+    overflow: hidden;
+
+}
+label{
+    font-size: 40px;
+    margin-left: 5px;
+    margin-top:5px;
+    font-weight: bolder;
+    float: left;
+}
+li{
+    list-style: none;
+    float: left;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: bolder;
+    display: ;
+}
+ul{padding:0%;
+margin:0;}
+.meanu{
+    color:#8e44ad;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+}
+.meanu:hover{background-color:#2c3e50;
+    padding: 4px;
+}
+.contact{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 27px;
+}
+.sceond{
+    float:left;
+    margin-top: 100px;
+    margin-left: 100px;
+    position: fixed;
+    display: block;
+}
+i{
+    color:#3498db
+}
+.contact{
+    color: #3498db;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.contact:hover{
+    background-color:#8e44ad;
+}
+.thired{
+}
+#animation{
+    animation-name: first;
+    animation-duration: 2s;
+}
+@keyframes first {
+    from{
+        left:0%;
+    }
+    to{
+        rightS: 70%
+    }
+}
