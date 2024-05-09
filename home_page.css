@@ -3,12 +3,12 @@ body{
 }
 /*menu*/
 .navigation{ 
-    background-color:#3498db;
+    background-color:#dff9fb;
     height:50px;
     width: 100%;
     padding: 0;
     margin: 0;
-    color:aliceblue;
+    color:#341f97;
     overflow: hidden;}
     label{
         font-size: 40px;
@@ -29,7 +29,7 @@ body{
     ul{padding:0%;
     margin:0;}
     .meanu{
-        color:#8e44ad;
+        color:#2e86de;
         overflow-wrap: break-word;
         word-break: break-word;
         position: relative;
@@ -45,7 +45,7 @@ body{
     width: fit-content;
 }
 .maincontent{
-    background-color: rgb(89, 236, 84);
+    background-color:#01a3a4;
     height: 75px;
     width: 230px;
     align-content: center;
@@ -93,4 +93,37 @@ p{
     text-align: center;
     width: fit-content;
     margin-left: 186px;
+}
+@media (max-width:768px){
+    label{
+        font-size: 20px;
+        margin-top: 8px;
+    }
+    li{
+        font-size: 13px;
+        padding: 2px;
+        margin-left: 9px;
+        margin-top: 20px;
+    }
+    .maincontent{
+    height: 35px;
+    width: 120px;
+    margin-left: 35%;
+    margin-top: 7%;
+    }
+    .division{
+        margin-left: 15px;
+         text-decoration: none;
+         font-size: 19px;
+
+}
+.job{
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 19px;}
+    h1{
+        font-size: 20px;}
+    .last{
+        height: 25px;;
+    }
 }
