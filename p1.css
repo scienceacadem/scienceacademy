@@ -51,14 +51,9 @@ body{
         margin-top: 28px;
     }
     .col{
-        height: 38px;
-        width: 120px;
+        height: 8px;
+        width: 100%;
         margin: 5px;
-        background-color:#01a3a4;
     }
-     .body{
-   margin-left:30px;
-}
-
 
 }
