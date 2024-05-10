@@ -53,5 +53,8 @@ body{
      .col-1{
          width:200px;
      }
+     .col{
+         width: 2px;
+     }
 
 }
