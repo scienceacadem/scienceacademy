@@ -7,13 +7,28 @@
     <link rel="stylesheet" href="home_page.css">
 </head>
 <body>
-    <div class="navigation">
-        <label for="icon">Science Academy</label>
+    <div class="container">
+        <div class="row bg-light shadow-lg">
+          <div class=col>
+            <label for="icon">Science Academy</label>
+          </div>
+          <div class=col>
+          </div>
+          <div class=col>
+          <span class="ticon" onclick="ShowMenu();">&#9776;</span>
+        <div class="menu">
+        <span class="close" onclick="CloseMenu();">&times;</span><br>
+        <label for="logo">Poro.com</label>
         <ul>
-            <li > <a href="index.html" class="meanu">Home</a> </li>
-            <li> <a href="#" class="meanu">About Us</a> </li>
-            <li> <a href="contact_us.html" class="meanu">Contact Us</a> </li>
+           <li> <a href="#"><i class="fa-solid fa-house-chimney"></i> Home</a><i>
+            <li> <a href="#"><i class="fa-solid fa-graduation-cap"></i> Study section</a><i>
+            <li> <a href="#"> <i class="fa-solid fa-square-rss"></i> News feed</a><i>
+            <li> <a href="#"> <i class="fa-regular fa-newspaper"></i> Tranding</a><i>
         </ul>
+      </div>
+          </div>
+        </div>
+      </div>
     </div>
         <div class="maincontent">
             <a href="class910.html" class="division">Class 9-10</a> 
@@ -30,8 +45,15 @@
         <div class="last">
             <h1> New Added </h1><br><br>
         </div>
-    <script>
-         alert("আমাদের পেজ এর কাজ চলছে। সঙ্গে থাকুন। কার্যক্রম চালিয়ে যেতে ওকে বাটনে ক্লিক করুন");
-    </script>
+        <script type="text/javascript">
+            function ShowMenu() {
+              var m = document.querySelector('.menu');
+              m.classList.add('smenu');
+            }
+            function CloseMenu() {
+              var m = document.querySelector('.menu');
+              m.classList.remove('smenu');
+            }
+          </script>
 </body>
 </html>
